@@ -79,3 +79,5 @@ console.log(rapClass.버논.생년월일, rapClass.버논.나이);
 
 //2-2
 console.log(rapClass.버논.생년월일 + ', ' + rapClass.버논.나이)
+
+//너 대단해
