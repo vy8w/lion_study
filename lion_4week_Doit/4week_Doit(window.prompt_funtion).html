@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick ="clickbtn()">주문하시겠습니까?</button>
+    <p id="demo"></p>
+
+    <script>
+        function clickbtn() {
+            let text;
+            let product = prompt('어떤걸 주문하시겠습니까?', 'cola');
+            switch (product) {
+                case 'cola':
+                    text = '콜라는 2천원 입니다.';
+                    break;
+                case 'beer':
+                    text = '맥주는 4천원 입니다.';
+                    break;
+                case 'milk':
+                    text = '우유는 3천원 입니다.';
+                    break;
+                case 'coffee':
+                    text = '커피는 천원 입니다.';
+                
+                default:
+                    text = '그 물건은 팔지 않습니다.';
+            }
+            document.getElementById('demo').innerHTML = text;
+        }
+    </script>
+</body>
+</html>

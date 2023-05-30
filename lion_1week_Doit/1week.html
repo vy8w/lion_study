@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <h1>안녕하세요</h1>
+    <h2>안녕하세요</h2>
+    <h3>안녕하세요</h3>
+    <h4>안녕하세요</h4>
+    <h5>안녕하세요</h5>
+    <h6>안녕하세요</h6>
+    <!-- 아아아아 -->
+    
+    <hr> <!-- open tag만 있음 -->
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere vero esse sint, ratione ducimus iure quibusdam. Fugiat, sequi deleniti. Dolorum odit sed consectetur pariatur voluptates veniam fuga in. Temporibus, sint.</p>
+    <br> <!-- 여백의 용도는 ㄴㄴ, 여백할거면 css로 -->
+    <p>Lorem ipsum dolor sit amet.</p><br>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, provident!</p>
+
+    <a href="https://www.naver.com/">naver</a>
+    <a href="https://www.naver.com/">naver</a>
+    
+    <a href="https://www.naver.com/" target="_blank">naver-blank</a> <!-- 새로운 페이지를 만들어서 네이버가 열림 -->
+    <a href="https://www.naver.com/" target="_self">naver-self</a> <!-- Document 자체에서 네이버가 열림 -->
+    
+    <img src="ddd.jpg" alt=""> <!-- ddd이미지 폴더를 image로 넣어둬서 안 뜸 -->
+    <img src="image/ddd.jpg"> <!-- 폴더 이름 image/ 해야지 사진이 뜸 -->
+    
+    <a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%EB%B0%94%EB%8B%A4" target="_blank"><img src="image/ddd.jpg"></a>
+    
+    <ol type="A">
+        <li>아침 먹기</li>
+        <li>점심 먹기</li>
+        <li>저녁 먹기</li>
+    </ol><!-- 정렬 순서 중요된 목록 -->
+
+    <ul>
+        <li>바나나 먹기</li>
+        <li>딸기 먹기</li>
+        <li>당근 먹기
+            <ul>
+                <li>바나나요거트</li>
+                <li>딸기요거트</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- block level -->
+    <div>ㅇㅇ</div>
+    <div>dd</div>
+    <div>ss</div>
+
+    <br>
+    <!-- inline level -->
+    <span>ㅇㅇ</span>
+    <span>dd</span>
+    <span>ss</span>
+
+    <br>
+    <span>ㅇㅇddss</span>
+    
+
+    <!-- 이 버튼이 어떤 용도인지 알려줌 -->
+    <button name="click" value="click" type="submit"></button>
+    <a href="https://www.naver.com/"><button>클릭클릭</button></a>
+
+
+
+
+
+                    <!-- method-post : 입력한 정보가 보이지 않음 -->
+                    <!-- method-get : 사용자의 정보가 보임 -->
+    <form action="" method="post">
+        <!-- label의 for와 input의 id값을 동일하게 해야함 -->
+        <!-- 이유 : 컴퓨터에게 이 정보는 'name' 정보라는 걸 알려주기 위함 -->
+        <label for="name" 이름 : ></label>
+        <input type="test" id="name" name="username">
+
+        
+        <div>
+            <label for="id">id : </label>
+            <input type="text" id="id">
+        </div>
+
+        <!-- pwd는 중요한 정보이기 때문에 type을 password로 설정 -->
+        <label for="pwd">pwd : </label>
+        <input type="password" id="pwd">
+
+        <!-- laber-for & input-id는 컴퓨터에게 둘의 관계를 알려주기 위함
+        input-name은 컴퓨터에게 input의 이름을 알려주기 위함 -->
+
+        <!-- name의 역할 : userid는 사용자의 id값을 가리키는거임 -->
+
+        <br>
+        <button type="submit">제출</button>
+    </form>
+
+
+
+</body>
+</html>

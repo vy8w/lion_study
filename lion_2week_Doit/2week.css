@@ -1,0 +1,24 @@
+#ji {
+    background-color: blueviolet;
+    font-size: 300px;
+    font-style: italic;
+}
+
+h1 {
+    background-color: aquamarine;
+}
+
+div h2 {
+    border: 1px solid red;
+}
+
+h1:hover {
+    text-align: center;
+    border: 3px solid blue;
+}
+
+@media(max-width : 800px) {
+    h1 {
+        background-color: blue;
+    }
+}

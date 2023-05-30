@@ -1,0 +1,136 @@
+/* 전반적으로 apple기업의 페이지 느낌을 내고자 하였습니다. */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Noto Sans KR', sans-serif;
+	color: #333;
+	background-color: #f7f7f7;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+header a img {
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+}
+
+header h1 {
+	font-size: 30px;
+	font-weight: 700;
+	margin-right: auto;
+}
+
+nav {
+	background-color: #333;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	padding: 0 20px;
+}
+
+nav li {
+	list-style: none;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1px;
+	font-weight: 700;
+}
+
+nav a:hover {
+	color: #f7f7f7;
+}
+
+main {
+	padding-top: 10px;   
+}
+
+img {
+    margin: auto;
+    display: block;
+    width: 350px;
+    height: 350px;
+}
+
+p {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+section {
+	padding: 40px 20px;
+}
+
+section h2 {
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+div {
+	text-align: center;
+}
+
+section ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+section li {
+	margin: 20px;
+	padding: 30px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 300px;
+	height: 300px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+section li h3 {
+	font-size: 25px;
+	margin-bottom: 10px;
+    white-space : nowrap
+}
+
+#etc h3  p {
+    text-align: center;
+    white-space : nowrap
+  }
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}

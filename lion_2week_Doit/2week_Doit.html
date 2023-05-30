@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2week_Doit</title>
+    <style>
+        h3 {
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3>CSS</h3>
+        <p>사람들이 보기 편하도록 디자인 해주는 것</p>
+    </div><hr>
+    <div>
+        <h3>link & import</h3>
+        <p>1. link</p>
+        <p>link는 링크를 연결 할 때 사용한다.
+            예를 들어 <link rel="stylesheet" href="2week.css">에서 rel = "stylesheet"를 href = "CSS파일이름"을 작성하여 CSS를 연결한다.</p>
+        <p>2. import</p>
+        <p>import는 외부에 파일을 나의 파일로 가져와 사용한다. ex) 폰트</p>
+    </div><hr>
+    <div>
+        <h3>선택자(selector)</h3>
+        <p>선택자는 CSS 효과 적용을 어떤 태그에 할 것인지 정해주는 것이다.</p>
+        <p>선택자 안에는 id태그와 class태그가 있다.</p>
+        <ul>
+            <li>id</li>
+                <p>사용배경: CSS를 주고 싶은 특정한 태그 1개가 있을 경우</p>
+                <p style= "background-color: beige;">*중요* 중복 되어서는 안 된다.</p>
+                <p>CSS 적용 방법 : (style)#id이름 (적용하고 싶은 CSS)(/style)</p>
+            <li>class</li>
+                <p>사용배경 : 비슷한 특성을 주고 싶은 태그들이 여러개일 때</p>
+                <p>CSS 적용 방법 : (style).class 이름(적용하고 싶은 CSS)(/style)</p>
+        </ul>
+    </div><hr>
+    <div>
+        <h3>선택자(selector) - 부모 자식 선택자</h3>
+        <p>부모 자식 선택자는 부모 태그를 이용하여 자식 태그에게 CSS 효과를 주는 것</p>
+        <p>ex)<br>
+            (body)<br>
+                (div)<br>
+                    (h1)hello hello hello(/h1)<br>
+                (/div)<br>
+            (/body)<br>
+        일때 div h1태그에 효과를 주고 싶다면 biv h1 { 어쩌구 }로 효과를 주면 된다.</p>
+    </div>
+    <div><hr>
+        <h3>선택자(selector) - 가상 클래스</h3>
+        <p>행동의 변화로도 CSS효과를 줄 수 있다.</p>
+        <ul>
+            <li>종류</li>
+                <ui>1. active : 누르고 있는 순간</ui><br>
+                <ui>2. hover : 누르지 않고 마우스를 올리고 있을 때</ui><br>
+                <ui>3. visited : 마우스를 누르고 나서</ui><br>
+                <ui>4. link : 마우스 클릭 전</ui><br>
+                <ui>5. focus : 작성을 위해 클릭한 상태 ex) 커서가 깜빡거림</ui>
+        </ul>
+    </div>
+    <div>
+        <h3>속성 - background</h3>
+        <ul>
+            <li>background-color : 바탕색</li>
+            <li>background-image : 바탕에 이미지 삽입</li>
+            <li>background-repeat : 바탕에 삽입한 이미지의 반복 여부</li>
+        </ul>
+    </div><hr>
+    <div>
+        <h3>속성 - 타이포그래피(글씨와 관련)</h3>
+        <p>1. color : 단어의 색깔</p>
+            <ul>
+                <li>red, blue ...</li>
+                <li>RGB(255, 255, 255)</li>
+                <li>#00FFF</li>
+            </ul>
+        <p>2. text-align : 입력한 글자의 배치</p>
+            <ul>
+                <li>center : 중앙 정렬</li>
+                <li>left/right : 좌우측 정렬</li>
+                <li>justify : 문장을 왼쪽과 오른쪽 모두 정렬</li>
+            </ul>
+        <p>3. font</p>
+        <p>자주 사용하는 font속성</p>
+        <p>font-size : 글씨의 크기</p>    
+            <ul>
+                <li>px : 절대적</li>
+                <li>em : 상대적</li>
+                <li>rem : 상대적</li>
+                <li>ex) 16px, 30px 등</li>
+            </ul>
+        <p>font-family : 글씨체 ex) 맑은 고딕, 돋음체 등</p>
+        <p>font-weight : 글씨두께</p>
+        <p>bole(굵은체), normal(보통), lighter(얇음)</p>
+    </div><hr>
+</body>
+</html>
